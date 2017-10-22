@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>XieKMusic</title>
+	<script src="jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_433571_kafjkn153zaj1yvi.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="wrap">
+		<aside>
+			<div class="logo-s btn icon">
+				<span class="icon-xielei"></span>
+			</div>
+			<div class="btn-album btn icon">
+				<span class="icon-14"></span>
+				<h3>专辑列表</h3>
+			</div>
+			<div class="btn-play btn icon active">
+				<span class="icon-yinle"></span>
+				<h3>正在播放</h3>
+			</div>
+		</aside>
+		<div class="container">
+			<header>
+				<a class="icon" href="#">
+					<span class="icon-xielei"></span>
+					蟹壳MUSIC
+				</a>
+				<span class="state">随机播放</span>
+			</header>
+			<main>
+				<div class="head">
+					<span>情感</span>
+					<span class="">人群</span>
+					<span>语种</span>
+					<span>曲风</span>
+					<span>场景</span>
+					<span>主题</span>
+				</div>
+				<div class="theme-panel">
+					<div class="theme-head">
+						<span>选择您喜欢的背景</span>
+					</div>
+					<div class="theme-main">
+						<div class="theme-img list">
+							<img class="active" src="imgs/theme/00.jpg" alt="">
+							<h3>默认主题</h3>
+						</div>
+						<div class="theme-img list">
+							<img src="imgs/theme/01.jpg" alt="">
+							<h3>夕阳黄昏</h3>
+						</div>
+						<div class="theme-img list">
+							<img src="imgs/theme/02.jpg" alt="">
+							<h3>NBA全明星</h3>
+						</div>
+						<div class="theme-img list">
+							<img src="imgs/theme/03.jpg" alt="">
+							<h3>清新女孩</h3>
+						</div>
+						<div class="theme-img list">
+							<img src="imgs/theme/04.jpg" alt="">
+							<h3>自然唯美</h3>
+						</div>
+						<div class="theme-img list">
+							<img src="imgs/theme/05.jpg" alt="">
+							<h3>紫色夜空</h3>
+						</div>
+					</div>
+				</div>
+				<div class="album-panel">
+					<div class="album-emotion album-lists">
+						<div class="list" channel-id="public_tuijian_suibiantingting">
+							<img src="imgs/album/10.jpg" alt="">
+							<h3>随便听听</h3>
+						</div>
+						<div class="list" channel-id="public_fengge_dianyingyuansheng">
+							<img src="imgs/album/27.jpg" alt="">
+							<h3>电影</h3>
+						</div>
+						<div class="list" channel-id="public_xinqing_huankuai">
+							<img src="imgs/album/29.jpg" alt="">
+							<h3>欢乐旋律</h3>
+						</div>
+						<div class="list" channel-id="public_xinqing_tianmi">
+							<img src="imgs/album/30.jpg" alt="">
+							<h3>甜蜜感受</h3>
+						</div>
+						<div class="list" channel-id="public_xinqing_jimo">
+							<img src="imgs/album/31.jpg" alt="">
+							<h3>寂寞</h3>
+						</div>
+						<div class="list" channel-id="public_xinqing_qingge">
+							<img src="imgs/album/32.jpg" alt="">
+							<h3>单身情歌</h3>
+						</div>
+						<div class="list" channel-id="public_xinqing_shuhuan">
+							<img src="imgs/album/33.jpg" alt="">
+							<h3>舒缓节奏</h3>
+						</div>
+						<div class="list" channel-id="public_xinqing_shanggan">
+							<img src="imgs/album/35.jpg" alt="">
+							<h3>伤感</h3>
+						</div>
+					</div>
+					<div class="album-peoples album-lists">
+						<div class="list" channel-id="public_shiguang_70hou">
+							<img src="imgs/album/12.jpg" alt="">
+							<h3>70后</h3>
+						</div>
+						<div class="list" channel-id="public_shiguang_80hou">
+							<img src="imgs/album/13.jpg" alt="">
+							<h3>80后</h3>
+						</div>
+						<div class="list" channel-id="public_shiguang_90hou">
+							<img src="imgs/album/14.jpg" alt="">
+							<h3>90后</h3>
+						</div>
+						<div class="list" channel-id="public_shiguang_erge">
+							<img src="imgs/album/16.jpg" alt="">
+							<h3>儿歌</h3>
+						</div>
+					</div>
+					<div class="album-Languages album-lists">
+						<div class="list" channel-id="public_yuzhong_huayu">
+							<img src="imgs/album/36.jpg" alt="">
+							<h3>华语</h3>
+						</div>
+						<div class="list" channel-id="public_yuzhong_oumei">
+							<img src="imgs/album/37.jpg" alt="">
+							<h3>欧美</h3>
+						</div>
+						<div class="list" channel-id="public_yuzhong_riyu">
+							<img src="imgs/album/38.jpg" alt="">
+							<h3>日语</h3>
+						</div>
+						<div class="list" channel-id="public_yuzhong_hanyu">
+							<img src="imgs/album/39.jpg" alt="">
+							<h3>韩语</h3>
+						</div>
+						<div class="list" channel-id="public_yuzhong_yueyu">
+							<img src="imgs/album/40.jpg" alt="">
+							<h3>粤语</h3>
+						</div>
+					</div>
+					<div class="album-styles album-lists">
+						<div class="list" channel-id="public_fengge_liuxing">
+							<img src="imgs/album/20.jpg" alt="">
+							<h3>流行</h3>
+						</div>
+						<div class="list" channel-id="public_fengge_yaogun">
+							<img src="imgs/album/21.jpg" alt="">
+							<h3>摇滚</h3>
+						</div>
+						<div class="list" channel-id="public_fengge_minyao">
+							<img src="imgs/album/22.jpg" alt="">
+							<h3>民谣</h3>
+						</div>
+						<div class="list" channel-id="public_fengge_qingyinyue">
+							<img src="imgs/album/23.jpg" alt="">
+							<h3>轻音乐</h3>
+						</div>
+						<div class="list" channel-id="public_fengge_xiaoqingxin">
+							<img src="imgs/album/24.jpg" alt="">
+							<h3>小清新</h3>
+						</div>
+						<div class="list" channel-id="public_fengge_zhongguofeng">
+							<img src="imgs/album/25.jpg" alt="">
+							<h3>中国风</h3>
+						</div>
+						<div class="list" channel-id="public_fengge_dj">
+							<img src="imgs/album/26.jpg" alt="">
+							<h3>DJ舞曲</h3>
+						</div>
+					</div>
+					<div class="album-scenes album-lists">
+						<div class="list" channel-id="public_tuijian_kaiche">
+							<img src="imgs/album/08.jpg" alt="">
+							<h3>开车</h3>
+						</div>
+						<div class="list" channel-id="public_xinqing_yonglanwuhou">
+							<img src="imgs/album/34.jpg" alt="">
+							<h3>慵懒午后</h3>
+						</div>
+						<div class="list" channel-id="public_tuijian_spring">
+							<img src="imgs/album/01.jpg" alt="">
+							<h3>漫步春天</h3>
+						</div>
+						<div class="list" channel-id="public_tuijian_autumn">
+							<img src="imgs/album/02.jpg" alt="">
+							<h3>秋日私语</h3>
+						</div>
+						<div class="list" channel-id="public_tuijian_winter">
+							<img src="imgs/album/03.jpg" alt="">
+							<h3>温暖冬日</h3>
+						</div>
+						<div class="list" channel-id="public_shiguang_lvxing">
+							<img src="imgs/album/17.jpg" alt="">
+							<h3>旅行</h3>
+						</div>
+						<div class="list" channel-id="public_xinqing_qingsongjiari">
+							<img src="imgs/album/28.jpg" alt="">
+							<h3>轻松假日</h3>
+						</div>
+						<div class="list" channel-id="public_shiguang_yedian">
+							<img src="imgs/album/19.jpg" alt="">
+							<h3>夜店</h3>
+						</div>
+					</div>
+					<div class="album-themes album-lists">
+						<div class="list" channel-id="public_tuijian_ktv">
+							<img src="imgs/album/04.jpg" alt="">
+							<h3>KTV金曲</h3>
+						</div>
+						<div class="list" channel-id="public_tuijian_billboard">
+							<img src="imgs/album/05.jpg" alt="">
+							<h3>Billboard</h3>
+						</div>
+						<div class="list" channel-id="public_tuijian_chengmingqu">
+							<img src="imgs/album/06.jpg" alt="">
+							<h3>成名曲</h3>
+						</div>
+						<div class="list" channel-id="public_tuijian_wangluo">
+							<img src="imgs/album/07.jpg" alt="">
+							<h3>网络歌曲</h3>
+						</div>
+						<div class="list" channel-id="public_tuijian_yingshi">
+							<img src="imgs/album/09.jpg" alt="">
+							<h3>影视</h3>
+						</div>
+						<div class="list" channel-id="public_shiguang_jingdianlaoge">
+							<img src="imgs/album/11.jpg" alt="">
+							<h3>经典老歌</h3>
+						</div>
+						<div class="list" channel-id="public_shiguang_xinge">
+							<img src="imgs/album/15.jpg" alt="">
+							<h3>火爆新歌</h3>
+						</div>
+						<div class="list" channel-id="public_tuijian_rege">
+							<img src="imgs/album/18.jpg" alt="">
+							<h3>热歌</h3>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="play-panel active">
+					<div class="current-img">
+						<img src="imgs/00.jpg">
+					</div>
+					<div class="lrc-wrap">
+						<div class="lrcs">
+							
+						</div>
+					</div>
+
+				</div>
+			</main>
+			<footer>
+				<div class="content clearfix">
+					<div class="control icon">
+						<span class="play icon-zanting1"></span>
+						<span class="next">&#xe636;</span>
+					</div>
+					<div class="current-img">
+						<img src="imgs/00.jpg">
+					</div>
+					<div class="current-info">
+						<span class="title">蟹壳音乐</span>
+						<span class="author">H.yang</span>
+						<span class="time">0:00</span>
+						<div class="bar">
+							<span class="drag"></span>
+							<div class="progress-total"></div>
+							<div class="progress-now"></div>
+						</div>
+					</div>
+					<div class="volume">
+						<span class="icon-yinliangkai icon"></span>
+						<span class="drag"></span>
+						<div class="volume-total"></div>
+						<div class="volume-change"></div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
