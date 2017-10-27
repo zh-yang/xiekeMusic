@@ -290,11 +290,13 @@ function playMusic(list) {
 		            lrcObj[time] = clause
 		        }
 		    }
-		    
+
 		    if(lrcObj && lrcObj[0].indexOf('音乐来自') > -1){
           delete lrcObj[0]
         }
-
+        if(!lrcObj){
+        	lrcObj[0] = '（-----该歌曲为纯音乐-----）'
+        }
 		    return lrcObj
 			}
 
