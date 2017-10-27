@@ -290,6 +290,11 @@ function playMusic(list) {
 		            lrcObj[time] = clause
 		        }
 		    }
+		    
+		    if(lrcObj && lrcObj[0].indexOf('音乐来自') > -1){
+          delete lrcObj[0]
+        }
+
 		    return lrcObj
 			}
 
